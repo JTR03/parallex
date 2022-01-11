@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import imgL from './images/imgL.jpg'
+import imgR from './images/imgR.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='zoom'>
+      <img src={imgL} alt='pic' id="img1" />
+      <img src={imgR} alt='' id='img2'/>
+    </div>
     </div>
   );
 }
