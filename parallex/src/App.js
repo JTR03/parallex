@@ -1,4 +1,4 @@
-import Text from './images/Text.png'
+ import Text from './images/Text.png'
 import './App.css';
 import {useState} from 'react'
 
